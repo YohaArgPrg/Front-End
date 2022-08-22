@@ -1,0 +1,95 @@
+body{
+    background: bisque;
+    font-size: 15px;
+    color: firebrick;
+    font-family: calibri;
+    margin: 0px;
+}
+#cabecera{
+background-color: darkblue;
+}
+#cabecera h1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+}
+nav{
+    background-color: darkturquoise;
+}
+nav ul{
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+    margin: 0px;
+}
+nav ul li{
+display: inline;
+}
+nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 8px 10px;
+    display: inline-block;
+}
+nav ul li a:hover{
+    background-color: violet;
+    color: whitesmoke;
+}
+#cont-img{
+   background-image: url('img/textura.jpg');
+   height: 230px;
+   background-position: center;
+   margin-bottom: 30px;
+}
+#cont-img .imagen h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 25px;
+    margin: 0px;
+}
+.contenedor{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+#contenido-principal
+{
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+    padding: 0px 30px;
+}
+#barra-lateral
+{
+    float: right;
+    width: 30%;
+    background-color: lightblue;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#part-inferior{
+    background-color: darkblue;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 40px;
+}
+@media(max-width: 650px)
+{
+#contenido-principal
+{
+    width: 100%;
+    float: none;
+
+}
+#barra-lateral
+{
+    width: 100%;
+    float: none;
+}
+}

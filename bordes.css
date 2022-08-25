@@ -1,0 +1,46 @@
+.uno{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#b1{
+    border-radius: 25px;
+    background-color: yellowgreen;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+#b2{
+    border-radius: 25px;
+   border: 3px solid violet;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+#b3{
+    border-radius: 25px;
+   background-image: url('textura.jpg');
+   color: white;
+   background-position: right top;
+   background-repeat: repeat;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+#b4{
+    border-radius: 50px 30px 50px 30px;
+    color: white;
+    background-color: red;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+#b5{
+    border-radius: 50% 50%;
+    color: white;
+    text-align: center;
+    background-color: red;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}

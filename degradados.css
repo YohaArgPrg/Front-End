@@ -1,0 +1,30 @@
+#degradado-lineal{
+    border: 2px solid brown;
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(90deg, blue,  cyan);
+}
+#degradado-lineal-horizontal{
+    border: 2px solid brown;
+    width: 250px;
+    height: 250px;
+    background: repeating-linear-gradient(blue,  cyan, green 15%);
+}
+#degradado-lineal-vertical{
+    border: 2px solid brown;
+    width: 250px;
+    height: 250px;
+    background: repeating-linear-gradient(90deg,blue,  cyan, green 15%);
+}
+#degradado-radial{
+    border: 2px solid brown;
+    width: 250px;
+    height: 250px;
+    background: radial-gradient(blue,  cyan 50%);
+}
+#degradado-efecto-espiral{
+    border: 2px solid brown;
+    width: 250px;
+    height: 250px;
+    background: repeating-radial-gradient(circle,blue,  cyan 15%);
+}
